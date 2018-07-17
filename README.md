@@ -36,17 +36,20 @@ WebUI.navigateToUrl("http://${GlobalVariable.Hostname}/")
 You want to create multiple [Execution Profiles](https://docs.katalon.com/pages/viewpage.action?pageId=13697476): `default`, `production`, `development`.
 In each Profile you want to define GlobalVariables. The GlobalVariables are used to specify values for Hostname, Username and Password variables :
 
-| Execution Profile | GlobalVariable name | value               |
+| Execution Profile | GlobalVariable | value               |
+|:-------------|:--------------------|:--------------------|
 | default      | Hostname            | demoaut.katalon.com |
 |              | Username            | John Doe            |
 |              | Password            | ThisIsNotAPassword  |
 
-| Execution Profile | GlobalVariable name | value               |
+| Execution Profile | GlobalVariable | value               |
+|:-------------|:--------------------|:--------------------|
 | production   | Hostname            | demoaut.katalon.com |
 |              | Username            | John Doe            |
 |              | Password            | ThisIsNotAPassword  |
 
-| Execution Profile | GlobalVariable name | value               |
+| Execution Profile | GlobalVariable | value               |
+|:-------------|:--------------------|:----------------------------|
 | development  | Hostname            | demoaut-mimic.kazurayam.com |
 |              | Username            | foo            |
 |              | Password            | bar  |
